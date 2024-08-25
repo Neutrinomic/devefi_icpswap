@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "icpntn": {
+      "type": "motoko",
+      "main": "src/main.mo"
+    },
+    "icpckbtc": {
+      "type": "motoko",
+      "main": "src/main.mo"
+    },
+    "icpnicp": {
+      "type": "motoko",
+      "main": "src/main.mo"
+    },
+    "icpckusdc" : {
+      "type": "motoko",
+      "main": "src/main.mo"
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": "mops sources"
+    }
+  },
+  "dfx": "0.21.0"
+}
