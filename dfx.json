@@ -15,6 +15,10 @@
     "icpckusdc" : {
       "type": "motoko",
       "main": "src/main.mo"
+    },
+    "icpsneed" : {
+      "type": "motoko",
+      "main": "src/main.mo"
     }
   },
   "defaults": {
@@ -22,5 +26,6 @@
       "packtool": "mops sources"
     }
   },
+
   "dfx": "0.21.0"
 }
